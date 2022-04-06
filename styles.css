@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #251605;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  float: left;
+  color: #4f772d;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a.active {
+  background-color: #251605;
+  color: #f7f7f7;
+}
+
+nav a:hover {
+  background-color: #f7f7f7;
+  color: #251605;
+}
+
+body {
+  font-family: "Exo 2", Helvetica;
+  background-color: #3a5683;
+}
+.top-background {
+  background-image: url("images/catpawcomputer.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+  color: white;
+  max-width: 840px;
+  margin: 45px auto 10px auto;
+  border-radius: 5px;
+}
+
+.top-background h1 {
+  padding: 50px;
+  text-shadow: 2px 2px black;
+  font-size: 50px;
+}
+
+.top-background span {
+  color: #f7f7f7;
+}
+
+.circuitimg {
+  width: 200px;
+  height: 200px;
+}
+
+article {
+  margin: 10px auto;
+  padding: 10px 10px 30px 10px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  max-width: 840px;
+}
+
+article h2,
+h3 {
+  margin: 20px 10px;
+  color: #4f772d;
+  /* text-shadow: 1px 1px black; */
+}
+
+.footer {
+  text-align: center;
+  background-color: #251605;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
